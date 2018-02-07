@@ -1,0 +1,46 @@
+{
+  "name": "speedtest2mqtt",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Run speedtest-cli and publish results via MQTT",
+  "main": "index.js",
+  "bin": {
+    "speedtest2mqtt": "index.js"
+  },
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "camo-purge ; xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hobbyquaker/speedtest2mqtt"
+  },
+  "keywords": [
+    "mqtt",
+    "smarthome",
+    "speedtest",
+    "dsl",
+    "internet"
+  ],
+  "author": "Sebastian Raff <hobbyquaker@gmail.com> (https://hobbyquaker.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hobbyquaker/speedtest2mqtt/issues"
+  },
+  "homepage": "https://github.com/hobbyquaker/speedtest2mqtt",
+  "dependencies": {
+    "mqtt": "^2.15.1",
+    "yalm": "^4.1.0",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "camo-purge": "latest",
+    "xo": "latest"
+  },
+  "xo": {
+    "space": 4
+  }
+}
