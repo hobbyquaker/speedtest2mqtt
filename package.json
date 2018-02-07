@@ -1,6 +1,5 @@
 {
   "name": "speedtest2mqtt",
-  "private": true,
   "version": "1.0.0",
   "description": "Run speedtest-cli and publish results via MQTT",
   "main": "index.js",
