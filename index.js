@@ -14,7 +14,7 @@ log.info(pkg.name + ' ' + pkg.version + ' starting');
 
 let mqttConnected;
 
-log.info('mqtt trying to connect', config.url.replace(/:[^@\/]+@/, '@'));
+log.info('mqtt trying to connect', config.url.replace(/:[^@/]+@/, '@'));
 const mqtt = Mqtt.connect(config.url, {
     rejectUnauthorized: !config.insecure
 });
@@ -28,14 +28,14 @@ function mqttPub(topic, payload, options) {
 }
 
 mqtt.on('connect', () => {
-    log.info('mqtt connected ' + config.url.replace(/:[^@\/]+@/, '@'));
+    log.info('mqtt connected ' + config.url.replace(/:[^@/]+@/, '@'));
     mqttConnected = true;
 });
 
 mqtt.on('close', () => {
     if (mqttConnected) {
         mqttConnected = false;
-        log.info('mqtt closed ' + config.url.replace(/:[^@\/]+@/, '@'));
+        log.info('mqtt closed ' + config.url.replace(/:[^@/]+@/, '@'));
     }
 });
 
@@ -50,7 +50,7 @@ if (config.server) {
 }
 
 log.info('exec', cmd);
-cp.exec(cmd, (err, stdout, stderr) => {
+cp.exec(cmd, (err, stdout) => {
     if (err) {
         log.error(err);
         process.exit(1);
