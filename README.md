@@ -1,9 +1,9 @@
 # speedtest2mqtt
 
 [![mqtt-smarthome](https://img.shields.io/badge/mqtt-smarthome-blue.svg)](https://github.com/mqtt-smarthome/mqtt-smarthome)
-[![NPM version](https://badge.fury.io/js/speedtest2mqtt-skeleton.svg)](http://badge.fury.io/js/speedtest2mqtt-skeleton)
-[![Dependency Status](https://img.shields.io/gemnasium/hobbyquaker/speedtest2mqtt-skeleton.svg?maxAge=2592000)](https://gemnasium.com/github.com/hobbyquaker/speedtest2mqtt-skeleton)
-[![Build Status](https://travis-ci.org/hobbyquaker/speedtest2mqtt-skeleton.svg?branch=master)](https://travis-ci.org/hobbyquaker/speedtest2mqtt-skeleton)
+[![NPM version](https://badge.fury.io/js/speedtest2mqtt.svg)](http://badge.fury.io/js/speedtest2mqtt)
+[![Dependency Status](https://img.shields.io/gemnasium/hobbyquaker/speedtest2mqtt.svg?maxAge=2592000)](https://gemnasium.com/github.com/hobbyquaker/speedtest2mqtt)
+[![Build Status](https://travis-ci.org/hobbyquaker/speedtest2mqtt.svg?branch=master)](https://travis-ci.org/hobbyquaker/speedtest2mqtt)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 [![License][mit-badge]][mit-url]
 
