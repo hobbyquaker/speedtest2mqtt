@@ -43,7 +43,7 @@ mqtt.on('error', err => {
     log.error('mqtt', err);
 });
 
-let cmd = '/usr/local/bin/speedtest-cli --simple';
+let cmd = config.path + ' --simple';
 
 if (config.server) {
     cmd += ' --server ' + config.server;
