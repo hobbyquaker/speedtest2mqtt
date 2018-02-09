@@ -7,6 +7,9 @@
 
 ### Install
 
+Prerequisites: needs mosquitto_pub and of cource speedtest-cli. On Debian/Ubuntu do: 
+`sudo apt install mosquitto-clients speedtest-cli`
+
 ```
 cd /usr/local/bin
 sudo wget https://raw.githubusercontent.com/hobbyquaker/speedtest2mqtt/master/speedtest2mqtt
