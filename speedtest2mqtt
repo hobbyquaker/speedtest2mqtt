@@ -9,7 +9,7 @@ OUTPUT=$(/usr/bin/speedtest-cli --simple)
 TS=`/bin/date +%s`000
 
 while read -r line ; do
-    PARAMS=$(echo "$line $TS"  | sed -n 's/\([a-zA-Z]*\): \([0-9.]*\) \(.*\) \(.*\)/-t "\1" -m "{\\"val\\":\2,\\"unit\\":\\"\3\\",\\"ts\\":\4}"/p')
+    PARAMS=$(echo "$line $TS"  | sed -n 's/\([a-zA-Z]*\): \([0-9.]*\) \(.*\) \(.*\)/-t "speedtest/status/\1" -m "{\\"val\\":\2,\\"unit\\":\\"\3\\",\\"ts\\":\4}"/p')
     if [ ! -z "$PARAMS" ]; then
         $($PUB_CMD $PARAMS)
     fi

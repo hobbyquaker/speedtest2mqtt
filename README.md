@@ -21,9 +21,9 @@ If neccessary adjust paths and params.
 
 ### Topics and Payloads:
 
-* `<name>/status/Ping` `{"val":"29.214","ts":1518035980012,"unit":"ms"}`
-* `<name>/status/Download` `{"val":"49.51","ts":1518035980012,"unit":"Mbit/s"}`
-* `<name>/status/Upload` `{"val":"9.51","ts":1518035980012,"unit":"Mbit/s"}`
+* `speedtest/status/Ping` `{"val":"29.214","ts":1518035980012,"unit":"ms"}`
+* `speedtest/status/Download` `{"val":"49.51","ts":1518035980012,"unit":"Mbit/s"}`
+* `speedtest/status/Upload` `{"val":"9.51","ts":1518035980012,"unit":"Mbit/s"}`
 
 
 ## License
