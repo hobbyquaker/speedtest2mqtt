@@ -7,7 +7,7 @@
 
 ### Install
 
-Prerequisites: needs mosquitto_pub and of cource speedtest-cli. On Debian/Ubuntu do: 
+Prerequisites: needs mosquitto_pub and of cource speedtest-cli. On Debian/Ubuntu do:    
 `sudo apt install mosquitto-clients speedtest-cli`
 
 ```
