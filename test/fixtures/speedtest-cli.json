@@ -1,0 +1,21 @@
+{
+  "download": 199672546.9785753,
+  "upload": 38384998.076578036,
+  "ping": 70.488,
+  "server": {
+    "url": "http://speedtest.meo.pt/speedtest/upload.php",
+    "name": "Gaia",
+    "country": "Portugal",
+    "cc": "PT",
+    "sponsor": "MEO",
+    "id": "30945",
+    "host": "speedtest.meo.pt:8080",
+    "d": 1885.5,
+    "latency": 70.488
+  },
+  "timestamp": "2026-08-30T11:41:46.955442Z",
+  "bytes_sent": 48054272,
+  "bytes_received": 249710490,
+  "share": null,
+  "client": {"ip": "1.2.3.4", "isp": "Deutsche Telekom AG", "country": "DE"}
+}

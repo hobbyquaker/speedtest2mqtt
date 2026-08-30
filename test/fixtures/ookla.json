@@ -1,0 +1,22 @@
+{
+  "type": "result",
+  "timestamp": "2026-08-30T11:40:28Z",
+  "ping": {"jitter": 0.353, "latency": 5.69, "low": 5.415, "high": 5.999},
+  "download": {"bandwidth": 31649880, "bytes": 129999580, "elapsed": 4109},
+  "upload": {"bandwidth": 4772644, "bytes": 17191228, "elapsed": 3600},
+  "packetLoss": 0,
+  "isp": "Deutsche Telekom AG",
+  "server": {
+    "id": 74184,
+    "host": "stgt-tc.wsqm.telekom-dienste.de",
+    "port": 8080,
+    "name": "Deutsche Telekom",
+    "location": "Stuttgart",
+    "country": "Germany"
+  },
+  "result": {
+    "id": "36aa9841-6be2-46bc-bdc0-3083068d711b",
+    "url": "https://www.speedtest.net/result/c/36aa9841-6be2-46bc-bdc0-3083068d711b",
+    "persisted": true
+  }
+}

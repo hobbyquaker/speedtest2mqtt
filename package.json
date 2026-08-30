@@ -1,0 +1,73 @@
+{
+  "name": "speedtest2mqtt",
+  "version": "2.0.0",
+  "description": "Interface between internet speed tests and MQTT",
+  "type": "module",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "speedtest2mqtt": "index.js"
+  },
+  "files": [
+    "index.js",
+    "config.js",
+    "lib/"
+  ],
+  "engines": {
+    "node": "^20.19 || ^22.12 || >=24"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint . && prettier --check .",
+    "format": "prettier --write . && eslint --fix .",
+    "test": "node --test",
+    "test:watch": "node --test --watch",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hobbyquaker/speedtest2mqtt.git"
+  },
+  "keywords": [
+    "mqtt",
+    "smarthome",
+    "mqtt-smarthome",
+    "mqtt-interfaces",
+    "home-automation",
+    "home-assistant",
+    "speedtest",
+    "bandwidth",
+    "internet",
+    "dsl",
+    "ookla",
+    "librespeed"
+  ],
+  "author": "Sebastian Raff <hobbyquaker@gmail.com> (https://hobbyquaker.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hobbyquaker/speedtest2mqtt/issues"
+  },
+  "homepage": "https://github.com/hobbyquaker/speedtest2mqtt",
+  "mqttInterfaces": {
+    "spec": "2.0",
+    "envPrefix": "SPEEDTEST2MQTT",
+    "needs": [
+      "cloud"
+    ],
+    "serviceExtra": []
+  },
+  "dependencies": {
+    "mqtt-interfaces-core": "^0.15.0",
+    "universal-speedtest": "^3.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^10.0.0",
+    "globals": "^16.0.0",
+    "prettier": "^3.0.0"
+  },
+  "overrides": {
+    "fast-xml-parser": "^5.7.0"
+  }
+}
